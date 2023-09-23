@@ -153,7 +153,7 @@ video{
         right: -2%;
     }
     .nav{
-        font-size: 120%;
+        font-size: 100%;
         left: 4%;
     }
     .btns{
@@ -161,6 +161,6 @@ video{
         height: auto;
     }
     .msg{
-        font-size: 110%;
+        font-size: 100%;
     }
 }

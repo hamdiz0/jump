@@ -82,7 +82,13 @@ function play (){
         cacb.left <= dib.right &&
         cacb.bottom >= dib.top &&
         cacb.top <= dib.bottom
-    ) {msg.textContent = " u lost bitch r u f*ckin gay ? "; clearInterval(interval) ; clearInterval(intervals) ;audio1.play();}
+    ) {msg.textContent = " u lost bitch r u f*ckin gay ? click hear to restart"; clearInterval(interval) ; clearInterval(intervals) ;audio1.play();
+       msg.addEventListener('click', ()=>{
+       msg.style.display='none'
+       window.location.reload();
+       
+       })
+}
     if (
         cac2b.right >= dib.left &&
         cac2b.left <= dib.right &&

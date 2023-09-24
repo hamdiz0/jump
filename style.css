@@ -91,7 +91,6 @@ video{
 }
 .cactus{
     position: absolute;
-    width: 5%;
     height: 25%; 
     bottom: 0%;
     background-image: url("ais.jpg");
@@ -102,10 +101,11 @@ video{
 }
 .cactus1{
     right: -5%;
+    width: 5%;
 }
 .cactus2{
-    right: -15%;
-    width: 6%;
+    right: -8%;
+    width: 5.5%;
     background-color: red;
 }
 .msg{

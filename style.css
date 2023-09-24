@@ -104,7 +104,7 @@ video{
     right: -5%;
 }
 .cactus2{
-    right: -20%;
+    right: -15%;
     width: 7%;
     background-color: red;
 }
@@ -133,15 +133,12 @@ video{
 }
 @media screen and (max-height : 500px){
     .btnj{
-        width: 90%;
-        height: 8%;
-        left: 5%;
-        bottom: 1%;
-        font-size: 120%;
+        opacity: 0;
     }
     .cont{
         position: absolute;
         width: 95%;
+        height: 75%;
         left: 2.5%;
         top: 19%;
         
@@ -153,14 +150,17 @@ video{
         right: -2%;
     }
     .nav{
-        font-size: 100%;
+        font-size: 120%;
         left: 4%;
+        top: 1%;
+        height: 20%;
     }
     .btns{
         font-size: 120%;
         height: auto;
     }
     .msg{
-        font-size: 100%;
+        font-size: 110%;
+        height: auto;
     }
 }

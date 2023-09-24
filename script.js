@@ -46,6 +46,7 @@ function play (){
         if (u.key == "Z"){jump()}
     });
     btnj.addEventListener('click', jump)
+    document.addEventListener('click', jump)
     pos += sp
     pos2+= sp
     cactus.style.right = pos + '%'
